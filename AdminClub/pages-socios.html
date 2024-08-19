@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Socios del club</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/favicon.ico" alt="">
+        <span class="d-none d-lg-block">C.A.F.C.O.</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Juan Perez</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Juan Perez</h6>
+              <span>Administrador</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>Mi Perfil</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Configurar mi cuenta</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="../index.html">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Salir</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Inicio</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-socios.html">
+          <i class="bi bi-card-list"></i>
+          <span>Socios</span>
+        </a>
+      </li><!-- End Register Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contacto</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../index.html">
+          <i class="bi bi-card-heading"></i>
+          <span>Sitio Web</span>
+        </a>
+      </li>
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Socios del club</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item">Pagina</li>
+          <li class="breadcrumb-item active">Socios</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section contact">
+      <div class="col-12">
+        <div class="card recent-sales overflow-auto">
+        <div class="card-body">
+          <h5 class="card-title">Total de Socios</h5>
+
+          <table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">Numero de socios</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Edad</th>
+                <th  class=" col-md-4 d-none d-md-table-cell" scope="col">Fecha de afiliacion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class=" col-md-4 col-sm-6" scope="row"><a href="user-profile2.html">#320</a></th>
+                <td class=" col-md-4 col-sm-6">Sofia García</td>
+                <td class=" col-md-4 col-sm-6"><span class="badge bg-success">Activo</span></td>
+                <td class=" col-md-4 col-sm-6">40</td>
+                <td class=" col-md-4 d-none d-md-table-cell">05/07/2023</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#319</a></th>
+                <td>Mateo Rodríguez</td>
+                <td><span class="badge bg-success">Activo</span></td>
+                <td>34</td>
+                <td class=" col-md-4 d-none d-md-table-cell">29/06/2023</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#318</a></th>
+                <td>Valentina López</td>
+                <td><span class="badge bg-success">Activo</span></td>
+                <td>27</td>
+                <td class=" col-md-4 d-none d-md-table-cell">20/06/2023</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#317</a></th>
+                <td>Alejandro Martínez</td>
+                <td><span class="badge bg-success">Activo</span></td>
+                <td>31</td>
+                <td class=" col-md-4 d-none d-md-table-cell">19/06/2023</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#316</a></th>
+                <td>Isabella Sánchez</td>
+                <td><span class="badge bg-success">Activo</span></td>
+                <td>26</td>
+                <td class=" col-md-4 d-none d-md-table-cell">01/06/2023</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#315</a></th>
+                <td>Maria Rodriguez</td>
+                <td><span class="badge bg-warning">Pendiente</span></td>
+                <td>37</td>
+                <td class=" col-md-4 d-none d-md-table-cell">29/05/2023</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#314</a></th>
+                <td>Carlos Gomez</td>
+                <td><span class="badge bg-warning">Pendiente</span></td>
+                <td>42</td>
+                <td class=" col-md-4 d-none d-md-table-cell">05/05/2023</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#313</a></th>
+                <td>Laura Hernandez</td>
+                <td><span class="badge bg-success">Activo</span></td>
+                <td>31</td>
+                <td class=" col-md-4 d-none d-md-table-cell">29/04/2023</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#312</a></th>
+                <td>Alejandro Lopez</td>
+                <td><span class="badge bg-success">Activo</span></td>
+                <td>29</td>
+                <td class=" col-md-4 d-none d-md-table-cell">20/04/2023</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#311</a></th>
+                <td>Ana Torres</td>
+                <td><span class="badge bg-warning">Pendiente</span></td>
+                <td>35</td>
+                <td class=" col-md-4 d-none d-md-table-cell">11/04/2023</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="row mt-5 justify-content-center">
+            <div class="col-auto">
+              <a href="#" class="btn btn-success">Ver todos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy;<strong><span>JoseHerrera</span></strong>. All Rights Reserved
+    </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

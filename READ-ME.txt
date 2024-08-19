@@ -1,0 +1,19 @@
+
+El proyecto es un sitio institucional del Club Ferro de Realicó, al ingresar al archivo index.html se abrirá una página
+con distintas secciones del club como un breve repaso de la historia del club, las actividades que desarrolla y datos
+sobre el contacto. En la parte del navegador se puede acceder a las distintas secciones y también un icono login que
+accede a una página para loguearse e ingresar al sitio administrativo. En este sitio se encontraran la pagina inicial
+con el número de socios del club, también una tabla con los socios recientes y una sección con noticias sobre el club.
+También hay una barra lateral donde se puede acceder al total de los socios, a una página de contacto y un link
+para regresar al sitio web. Oprimiendo en el número del primer socio se puede acceder a la ficha con sus datos y la
+opción de editar el perfil. También se puede ver y editar mi perfil como administrador.
+
+Las librerias usadas son: Bootstrap 5, Animate.css, owlcarousel
+
+Color Principal: #198754
+
+En el sitio institucional se me dificulto el tema de las imágenes ya que no había mucho contenido en las redes y algunas
+tuve que recortar porque estaban escritas.
+La parte del sitio administrativo yo la tome que al loguearse entra al sitio un administrativo del club que puede
+ver y modificar datos tanto suyos como de los socios. En el apartado de noticias es solo una sección de maquetado y
+no te dirige a ningún lado igual que en la lista total de socios el botón que dice ver todo.
